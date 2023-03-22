@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+}
+
+.container {
+    margin: 80 px;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.success-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.message-error {
+    font-size:12px ;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    margin-bottom:8px ;
+    display: none;
+}
