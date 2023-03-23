@@ -8,9 +8,10 @@ let formEValido = false;
 function validaCampo(campoA,campoB) {
     return campoA > campoB;
 }
+
 form.addEventListener('submit',function(e){
     e.preventDefault ();
-}
+})
 
     const mensagemSucesso = `Resultado do campo B correto: <b> ${campoB.value} <b> é maior que o valor A: <b> ${campoA.value} <b>`;
     const mensagemErro = `Resultado incorreto do valor B: <b> ${campoB.value}<b> é menor que o valor de A: <b> ${campoA.value}<b>`;

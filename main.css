@@ -3,16 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
 }
 
 body {
+    background-color: blue;
+    color: white;
 }
 
 .container {
     margin: 80 px;
     max-width: 640px;
     width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 650px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
 }
 
 form {
@@ -28,7 +38,7 @@ input, textarea, button {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(176, 176, 240);
     border: none;
     text-transform: uppercase;
     color: white;
